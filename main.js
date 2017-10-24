@@ -1,0 +1,11 @@
+var foodInGrams = 100;
+var sleepInHours = 15;
+var jumps;
+jumps = foodInGrams / 10 * 3;
+console.log(jumps);
+var pulls;
+pulls = sleepInHours * 2;
+console.log(pulls);
+var runs; 
+runs = jumps + pulls * 0.5;
+console.log(runs);
