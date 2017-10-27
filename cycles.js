@@ -22,7 +22,7 @@ if (mode === 'reverse') {
   }
 }
  if(mode === 'alternate') {
-   for(var alternatePage = startPage; alternatePage <= totalPages); alternatePage+=2) {
+   for(var alternatePage = startPage; alternatePage <= totalPages; alternatePage+=2) {
      keks.print(alternatePage);
    }
  }
